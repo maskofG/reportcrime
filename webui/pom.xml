@@ -36,14 +36,23 @@
         	  <execution>
         	    <id>war-exec-run</id>
         	    <goals>
-        	      <goal>war-exec-only</goal>
+        	      <goal>run-war</goal>
         	    </goals>
         	    <configuration>
-        	    	<server>http://localhost:8084/reportcrime</server>
+        	    	<url>http://localhost:8080/manager/text</url>
           			<path>/${project.build.finalName}</path>
         		</configuration>
         	  </execution>
         	</executions>
+        </plugin>
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.0</version>
+            <configuration>
+                <source>1.7</source>
+                <target>1.7</target>
+            </configuration>
         </plugin>
       </plugins>
     </pluginManagement>
