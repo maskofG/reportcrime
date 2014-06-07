@@ -3,7 +3,7 @@
   <groupId>com.socialnetwork.reportcrime</groupId>
   <artifactId>mobiledevice-interface</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <name>mobiledevice-interface</name>
   <description>Interface for mobile for registering or retrieving crime data</description>
 </project>
