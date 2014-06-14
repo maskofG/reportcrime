@@ -5,4 +5,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>authsvc</name>
   <description>Authentication Service Provider</description>
+  
+  <build>
+    <directory>${basedir}/target-classes</directory>
+    <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
+    <outputDirectory>${project.build.directory}/main</outputDirectory>
+    <testSourceDirectory>${basedir}/src/test/java</testSourceDirectory>
+  </build>
+  
 </project>
